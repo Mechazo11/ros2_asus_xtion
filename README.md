@@ -1,4 +1,7 @@
+![BSD-3-Clause License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)
 # ros2_asus_xtion
+
+**TODO** more details, refer to Miguel's original repo, document major changes
 
 ## Installation
 

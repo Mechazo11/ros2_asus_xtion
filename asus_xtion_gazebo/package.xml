@@ -2,15 +2,19 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>asus_xtion_gazebo</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="mgons@unileon.es">Miguel Ángel González Santamarta</maintainer>
-  <license>GPL-3</license>
+  <version>1.0.0</version>
+  <description>Launches Asus Xtion camera asset in Gazebo.</description>
+  <!-- Gazebo Harmonic port by -->
+  <author email="azmyin12@gmail.com">Azmyin Md. Kamal</author>
+  <license>BSD-3</license>
 
+  <!-- Original author -->
+  <author email="mgons@unileon.es">Miguel Ángel González Santamarta</author>
+  
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <depend>gazebo</depend>
-  <depend>gazebo_ros</depend>
+  <!-- ros_gz is a meta package that replaces gazebo_ros_pkgs and gazebo -->
+  <depend>ros_gz</depend> 
   <depend>asus_xtion_description</depend>
 
   <export>

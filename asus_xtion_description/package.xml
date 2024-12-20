@@ -2,17 +2,19 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>asus_xtion_description</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="mgons@unileon.es">Miguel Ángel González Santamarta</maintainer>
+  <version>1.0.0</version>
+  <description>Asus Xtion model description updated for Gazebo Harmonic</description>
+  <!-- Gazebo harmonic port by -->
+  <author email="azmyin12@gmail.com">Azmyin Md. Kamal</author>
+  
+  <!-- Original author -->
+  <author email="mgons@unileon.es">Miguel Ángel González Santamarta</author>
   <license>GPL-3</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <depend>gazebo</depend>
-  <depend>gazebo_ros2_control</depend>
-  <depend>gazebo_ros_pkgs</depend>
-  <depend>gazebo_plugins</depend>
+  <depend>ros_gz</depend>
+  <depend>gz_ros2_control</depend>
   <depend>xacro</depend>
 
   <export>
