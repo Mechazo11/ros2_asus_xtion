@@ -6,11 +6,13 @@
   <description>Asus Xtion model description updated for Gazebo Harmonic</description>
   <!-- Gazebo harmonic port by -->
   <author email="azmyin12@gmail.com">Azmyin Md. Kamal</author>
+  <maintainer email="azmyin12@gmail.com">Azmyin Md. Kamal</maintainer>
   
-  <!-- Original author -->
-  <author email="mgons@unileon.es">Miguel Ángel González Santamarta</author>
   <license>GPL-3</license>
 
+  <!-- Original author -->
+  <author email="mgons@unileon.es">Miguel Ángel González Santamarta</author>
+  
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>ros_gz</depend>

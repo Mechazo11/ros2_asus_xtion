@@ -3,10 +3,13 @@
 <package format="3">
   <name>asus_xtion</name>
   <version>1.0.0</version>
-  <description>Meta package for ros2_asus_xtion.</description>
-  <maintainer email="mgons@unileon.es">Miguel Ángel González Santamarta</maintainer>
+  <description>Meta package for ros2_asus_xtion compatible with Gazebo Harmonic.</description>
+  <author email="azmyin12@gmail.com">Azmyin Md. Kamal</author>
   <maintainer email="azmyin12@gmail.com">Azmyin Md. Kamal</maintainer>
-  <license>GPL-3</license>
+  <license>BSD-3</license>
+
+  <!-- Original author -->
+  <author email="mgons@unileon.es">Miguel Ángel González Santamarta</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

@@ -4,8 +4,10 @@
   <name>asus_xtion_gazebo</name>
   <version>1.0.0</version>
   <description>Launches Asus Xtion camera asset in Gazebo.</description>
-  <!-- Gazebo Harmonic port by -->
+   <!-- Gazebo harmonic port by -->
   <author email="azmyin12@gmail.com">Azmyin Md. Kamal</author>
+  <maintainer email="azmyin12@gmail.com">Azmyin Md. Kamal</maintainer>
+  
   <license>BSD-3</license>
 
   <!-- Original author -->

@@ -1,11 +1,10 @@
-
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.8)
 project(asus_xtion_gazebo)
 
-# Default to C99
-if(NOT CMAKE_C_STANDARD)
-  set(CMAKE_C_STANDARD 99)
-endif()
+# # Default to C99
+# if(NOT CMAKE_C_STANDARD)
+#   set(CMAKE_C_STANDARD 99)
+# endif()
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -18,8 +17,8 @@ endif()
 
 find_package(ament_cmake REQUIRED)
 
-find_package(gazebo REQUIRED)
-find_package(gazebo_ros REQUIRED)
+# find_package(gazebo REQUIRED)
+find_package(ros_gz REQUIRED)
 find_package(asus_xtion_description REQUIRED)
 
 install(
