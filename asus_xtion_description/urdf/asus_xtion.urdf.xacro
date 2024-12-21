@@ -1,23 +1,20 @@
 <?xml version="1.0"?>
 
 <!-- Copyright (C) 2023  Miguel Ángel González Santamarta
+Copyright (C) 2024  Azmyin Md. Kamal
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+BSD -3 license
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+This version has only been tested for a simlulated RGB-D sensor.
 
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>. -->
+-->
 
 <robot name="asus_xtion" xmlns:xacro="http://www.ros.org/wiki/xacro">
   
-  <xacro:macro name="asus_xtion" params="name parent *origin ">
+  <xacro:macro name="asus_xtion" params="name parent_link *origin
+                                        update_rate:=30.0 
+                                        image_height:=480 
+                                        image_width:=640">
 
     <xacro:property name="M_SCALE_XTION" value="0.001"/>
     <xacro:property name="asus_xtion_pro_depth_rel_rgb_py" value="0.0270" />
