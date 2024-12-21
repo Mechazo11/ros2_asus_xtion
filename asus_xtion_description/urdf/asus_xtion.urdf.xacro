@@ -15,9 +15,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>. -->
 
-<robot name="sensor_asus_xtion" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="asus_xtion" xmlns:xacro="http://www.ros.org/wiki/xacro">
   
-  <xacro:macro name="sensor_asus_xtion" params="name parent *origin ">
+  <xacro:macro name="asus_xtion" params="name parent *origin ">
 
     <xacro:property name="M_SCALE_XTION" value="0.001"/>
     <xacro:property name="asus_xtion_pro_depth_rel_rgb_py" value="0.0270" />
