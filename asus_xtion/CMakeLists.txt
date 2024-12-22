@@ -13,7 +13,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 
 find_package(asus_xtion_description REQUIRED)
-find_package(openni2_camera REQUIRED)
+# find_package(openni2_camera REQUIRED)
 
 install(
   DIRECTORY launch

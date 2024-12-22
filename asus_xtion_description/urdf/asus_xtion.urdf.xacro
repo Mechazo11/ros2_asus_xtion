@@ -166,8 +166,6 @@ This version has only been tested for a simlulated RGB-D sensor.
           <gz_frame_id>${name}_rgbd_frame</gz_frame_id>
           <topic>$(arg namespace)/sensors/${name}</topic>
           <!-- <enable_metrics>true</enable_metrics> -->
-
-          
         </sensor>
     </gazebo>
   
