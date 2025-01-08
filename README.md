@@ -29,7 +29,7 @@ Assuming you workspace is named ```colcon_ws```
 
 ```bash
 cd ~/colcon_ws/src
-git clone -b jazzy_devel --single-branch https://github.com/Mechazo11/ros2_asus_xtion.git
+git clone -b harmonic_devel --single-branch https://github.com/Mechazo11/ros2_asus_xtion.git
 cd ..
 colcon build --symlink-install
 source ./install_setup.bash
