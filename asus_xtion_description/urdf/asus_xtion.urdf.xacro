@@ -166,7 +166,8 @@ This version has only been tested for a simlulated RGB-D sensor.
           <always_on>1</always_on>
           <update_rate>${update_rate}</update_rate>
           <visualize>true</visualize>
-          <gz_frame_id>${name}_rgbd_frame</gz_frame_id>
+          <!-- TODO claude suggests taking out the duplicate gz_frame_id tag -->
+          <!-- <gz_frame_id>${name}_rgbd_frame</gz_frame_id> -->
           <topic>$(arg namespace)/sensors/${name}</topic>
           <!-- <enable_metrics>true</enable_metrics> -->
         </sensor>
